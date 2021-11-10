@@ -1,0 +1,120 @@
+.share {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.25);
+}
+
+.shareWrapper {
+  padding: 10px;
+}
+
+.shareTop {
+  display: flex;
+  align-items: center;
+}
+
+.shareInput {
+  width: 80%;
+  height: 35px;
+  border-radius: 20px;
+  background: #f0f0f0;
+  border: none;
+  margin-right: 15px;
+}
+
+.shareInput:focus {
+  outline: none;
+}
+
+.shareProfileImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.shareHr {
+  margin: 20px;
+}
+
+.shareBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shareOptions {
+  display: flex;
+  margin-left: 10px;
+}
+
+.shareOption {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.shareIcon {
+  font-size: 20px;
+  margin-right: 3px;
+}
+
+.shareOptionText {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.shareButton {
+  border: none;
+  padding: 7px;
+  background-color: green;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 20px;
+  color: white;
+}
+
+i.tomato {
+  color: tomato;
+}
+
+i.blue {
+  color: blue;
+}
+
+i.green {
+  color: green;
+}
+
+i.goldenrod {
+  color: goldenrod;
+}
+
+.shareInput {
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 15px;
+}
+
+.shareImgContainer {
+  padding: 0 20px 10px 20px;
+  position: relative;
+}
+
+.shareImg {
+  width: 100%;
+  object-fit: cover;
+}
+
+.CancelImg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 97%;
+  cursor: pointer;
+}
